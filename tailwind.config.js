@@ -14,7 +14,7 @@ export default {
         white: "#F1F1F1",
       },
       fontSize: {
-        h1: "56px",
+        h1: "48px",
         h2: "36px",
         h3: "24px",
         h4: "22px",
@@ -36,7 +36,7 @@ export default {
         p2: "30px",
         p3: "28px",
         p4: "24px",
-      }
+      },
     },
   },
   // eslint-disable-next-line no-undef
