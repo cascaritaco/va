@@ -12,6 +12,7 @@ export default {
         secondary: "#4238D5",
         black: "#1E1E1E",
         white: "#F1F1F1",
+        pureWhite: "#FFFFFF",
       },
       fontSize: {
         h1: "56px",
