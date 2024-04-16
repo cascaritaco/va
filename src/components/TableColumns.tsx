@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import ColumnType from "./../types/table.ts";
 
 const Column: React.FC<ColumnType> = ({
@@ -16,10 +15,7 @@ const Column: React.FC<ColumnType> = ({
 }) => {
   return (
     <tr key={position}>
-      <th
-        className="flex gap-3 sticky left-0 z-2 bg-white"
-        style={{ backgroundColor: "#ffffff" }}
-      >
+      <th className="flex gap-3 sticky left-0 z-2 bg-pureWhite">
         <div>{position}</div>
         <div>{name}</div>
       </th>
