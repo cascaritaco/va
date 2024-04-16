@@ -5,9 +5,9 @@ import Teams from "../data/teams2.ts";
 
 const Table2 = () => {
   return (
-    <div className="overflow-x-auto h-screen px-4">
+    <div className="overflow-x-auto h-screen">
       <table className="table table-pin-rows mx-auto mt-4 xl:max-w-7xl">
-        <Header/>
+        <Header />
         <tbody>
           {Teams.map((team) => (
             <Column key={team.position} {...team} />
@@ -19,4 +19,3 @@ const Table2 = () => {
 };
 
 export default Table2;
-
