@@ -1,0 +1,5 @@
+.stickyColumn > :first-child {
+  position: sticky;
+  z-index: 2;
+  left: 0px;
+}

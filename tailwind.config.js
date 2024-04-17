@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -37,10 +34,12 @@ export default {
         p2: "30px",
         p3: "28px",
         p4: "24px",
-      }
+      },
     },
+  },
+  daisyui: {
+    themes: false,
   },
   // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],
-}
-
+};
