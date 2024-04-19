@@ -17,7 +17,6 @@ const ScoreBoardInfo = [
       score: 4,
       name: "Juventus",
     },
-
     away: {
       logo: "./src/assets/teamLogos/tuzos.svg",
       score: 2,
@@ -30,7 +29,6 @@ const ScoreBoardInfo = [
       score: 4,
       name: "Juventus",
     },
-
     away: {
       logo: "./src/assets/teamLogos/guadalajara.svg",
       score: 2,

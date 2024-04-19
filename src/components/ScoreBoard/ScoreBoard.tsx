@@ -3,7 +3,7 @@ import ScoreBoardInfo from "../../data/scoreboardData/scoreboard";
 
 const ScoreBoard = () => {
   return (
-    <div className="flex flex-col mt-10 px-4">
+    <section className="flex flex-col mt-10 px-4">
       <div>
         <h2 className="text-xl mb-4">Resultados</h2>
       </div>
@@ -19,14 +19,14 @@ const ScoreBoard = () => {
               // Game results row
               <div key={idx} className="flex">
                 {/* Teams Row */}
-                <div className="flex flex-col items-center py-2 w-full">
+                <div className="flex flex-col items-center py-2 w-full md:flex-row md:justify-center">
                   {/* Game results team */}
                   <div className="flex items-center w-full py-2">
                     <div className="flex items-center justify-center w-8 h-8">
                       <img src={scoreboard.home.logo} className="h-8 w-8" />
                     </div>
 
-                    <div className="text-left pl-2 grow">
+                    <div className="text-left pl-2 grow md:text-right">
                       <p className="text-sm text-black uppercase">
                         {scoreboard.home.name}
                       </p>
@@ -39,7 +39,7 @@ const ScoreBoard = () => {
                     </div>
                   </div>
 
-                  <div className="flex items-center w-full py-2">
+                  <div className="flex items-center w-full py-2 md:flex-row-reverse">
                     <div className="flex items-center justify-center w-8 h-8">
                       <img src={scoreboard.away.logo} className="h-8 w-8" />
                     </div>
@@ -62,7 +62,7 @@ const ScoreBoard = () => {
           })}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

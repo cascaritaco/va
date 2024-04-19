@@ -5,7 +5,7 @@ import Teams from "../data/teams1.ts";
 
 const Table1 = () => {
   return (
-    <div className="overflow-x-auto h-screen">
+    <section className="overflow-x-auto">
       <table className="table table-pin-rows mx-auto mt-4 xl:max-w-7xl">
         <Header />
         <tbody>
@@ -14,7 +14,7 @@ const Table1 = () => {
           ))}
         </tbody>
       </table>
-    </div>
+    </section>
   );
 };
 
