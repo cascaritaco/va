@@ -7,7 +7,7 @@ const TabbedContent = ({ toggleState, toggleTab }) => {
   return (
     <div className="content-tabs">
       <div className={toggleState === 1 ? "mt-4" : "hidden"}>
-        <h2 className="mx-auto px-6 xl:max-w-7xl"> Torneo de Verano 2024 </h2>
+        <h2 className="mx-auto px-6 xl:max-w-7xl"> Tablas </h2>
         <Table1 />
       </div>
       <div className={toggleState === 2 ? "mt-4" : "hidden"}>
@@ -23,4 +23,3 @@ const TabbedContent = ({ toggleState, toggleTab }) => {
 };
 
 export default TabbedContent;
-
