@@ -1,47 +1,56 @@
-export const ScheduleData = [
+const ScheduleData = [
   {
-    date: "Sat 20 Apr 2024",
+    date: "Miercoles 10, de Abril 2024",
+    homeTeam: {
+      name: "Juventus",
+      logo: "./teamLogos/juventus.svg",
+    },
+    awayTeam: {
+      name: "Sinaloa",
+      logo: "",
+    },
+    time: "N/A",
+    location: "Pinto Lake 'A'",
+  },
+  {
+    date: "Miercoles 10, de Abril 2024",
+    homeTeam: {
+      name: "Forty's",
+      logo: "",
+    },
+    awayTeam: {
+      name: "Sinaloa",
+      logo: "",
+    },
+    time: "N/A",
+    location: "Pinto Lake 'B'",
+  },
+  {
+    date: "Jueves 11, de Abril 2023",
     homeTeam: {
       name: "Colima",
-      logo: "./src/assets/teamLogos/colima.svg",
+      logo: "./teamLogos/colima.svg",
     },
     awayTeam: {
       name: "Guadalajara",
-      logo: "./src/assets/teamLogos/guadalajara.svg",
+      logo: "./teamLogos/guadalajara.svg",
     },
-    time: "07:00",
-    location: "Pinto Lake",
+    time: "N/A",
+    location: "Pinto Lake 'B'",
   },
   {
-    date: "Sun 21 Apr 2024",
+    date: "Viernes 12, de Abril 2023",
     homeTeam: {
-      name: "Juventus",
-      logo: "./src/assets/teamLogos/Juventus.svg",
+      name: "Coro",
+      logo: "",
     },
     awayTeam: {
-      name: "Tuzos",
-      logo: "./src/assets/teamLogos/tuzos.svg",
+      name: "Atletico Vet",
+      logo: "",
     },
-    time: "08:30",
-    location: "Casa de tu Mama",
-  },
-  {
-    date: "Sat 27 Apr 2024",
-    homeTeam: {
-      name: "Juventus",
-      logo: "./src/assets/teamLogos/Juventus.svg",
-    },
-    awayTeam: {
-      name: "Guadalajara",
-      logo: "./src/assets/teamLogos/guadalajara.svg",
-    },
-    time: "12:00",
+    time: "6:00PM",
     location: "La Michoacana Plus",
   },
 ];
 
-export const ScheduleDates = [
-  "Saturday 20 April 2024",
-  "Sunday 21 April 2024",
-  "Saturday 27 April 2024",
-];
+export default ScheduleData;
