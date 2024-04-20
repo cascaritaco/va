@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "./TableHeader.tsx";
 import Column from "./TableColumns.tsx";
-import Teams from "../data/teams2.ts";
+import Teams from "../../data/teams3.ts";
 
-const Table2 = () => {
+const Table3 = () => {
   return (
     <div className="overflow-x-auto h-screen">
       <table className="table table-pin-rows mx-auto mt-4 xl:max-w-7xl">
@@ -18,4 +18,4 @@ const Table2 = () => {
   );
 };
 
-export default Table2;
+export default Table3;
