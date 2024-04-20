@@ -10,7 +10,7 @@ const ScoreBoard = () => {
       </div>
       <div>
         <div className="bg-gray-200 py-2 px-4 rounded-lg">
-          <p className="text-xs uppercase">Martes, 9 Abril</p>
+          <p className="text-xs uppercase">JORNADA #2</p>
         </div>
 
         {/* Table */}
