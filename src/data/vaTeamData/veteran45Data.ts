@@ -1,7 +1,7 @@
 const Teams = [
     {
         "position": 1,
-        "image": "./public/assets/teamLogos/juventus.svg",
+        "image": "./public/teamLogos/juventus.svg",
         "nameLong": "Juventus",
         "nameShort": "JUV",
         "jj": 1,
@@ -15,7 +15,7 @@ const Teams = [
     },
     {
         "position": 2,
-        "image": "./public/assets/teamLogos/defaultLogo.svg",
+        "image": "./public/teamLogos/defaultLogo.svg",
         "nameLong": "Atletico Vet",
         "nameShort": "",
         "jj": 1,
@@ -29,7 +29,7 @@ const Teams = [
     },
     {
         "position": 3,
-        "image": "./public/assets/teamLogos/mazatlan.svg",
+        "image": "./public/teamLogos/mazatlan.svg",
         "nameLong": "Sinaloa",
         "nameShort": "",
         "jj": 1,
@@ -43,7 +43,7 @@ const Teams = [
     },
     {
         "position": 4,
-        "image": "./public/assets/teamLogos/colima.svg",
+        "image": "./public/teamLogos/colima.svg",
         "nameLong": "Colima",
         "nameShort": "",
         "jj": 1,
@@ -57,7 +57,7 @@ const Teams = [
     },
     {
         "position": 5,
-        "image": "./public/assets/teamLogos/guadalajara.svg",
+        "image": "./public/teamLogos/guadalajara.svg",
         "nameLong": "Guadalajara",
         "nameShort": "",
         "jj": 1,
@@ -71,7 +71,7 @@ const Teams = [
     },
     {
         "position": 6,
-        "image": "./public/assets/teamLogos/defaultLogo.svg",
+        "image": "./public/teamLogos/defaultLogo.svg",
         "nameLong": "Forty's",
         "nameShort": "",
         "jj": 1,
@@ -85,7 +85,7 @@ const Teams = [
     },
     {
         "position": 7,
-        "image": "./public/assets/teamLogos/defaultLogo.svg",
+        "image": "./public/teamLogos/defaultLogo.svg",
         "nameLong": "Coro",
         "nameShort": "",
         "jj": 1,
@@ -99,7 +99,7 @@ const Teams = [
     },
     {
         "position": 8,
-        "image": "./public/assets/teamLogos/tuzos.svg",
+        "image": "./public/teamLogos/tuzos.svg",
         "nameLong": "Tuzos",
         "nameShort": "",
         "jj": 1,
@@ -113,7 +113,7 @@ const Teams = [
     },
     {
         "position": 9,
-        "image": "./public/assets/teamLogos/defaultLogo.svg",
+        "image": "./public/teamLogos/defaultLogo.svg",
         "nameLong": "El Cartel",
         "nameShort": "",
         "jj": "",

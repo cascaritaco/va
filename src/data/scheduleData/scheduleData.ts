@@ -1,47 +1,43 @@
-export const ScheduleData = [
+const ScheduleData = [
   {
-    date: "Sat 20 Apr 2024",
+    date: "Miercoles 10, de Abril 2024",
     homeTeam: {
       name: "Colima",
-      logo: "./public/assets/teamLogos/colima.svg",
+      logo: "./public/teamLogos/colima.svg",
     },
     awayTeam: {
       name: "Guadalajara",
-      logo: "./public/assets/teamLogos/guadalajara.svg",
+      logo: "./public/teamLogos/guadalajara.svg",
     },
-    time: "07:00",
-    location: "Pinto Lake",
+    time: "N/A",
+    location: "Pinto Lake 'A'",
   },
   {
-    date: "Sun 21 Apr 2024",
+    date: "Miercoles 10, de Abril 2024",
     homeTeam: {
       name: "Juventus",
-      logo: "./public/assets/teamLogos/Juventus.svg",
+      logo: "./public/teamLogos/Juventus.svg",
     },
     awayTeam: {
       name: "Tuzos",
-      logo: "./public/assets/teamLogos/tuzos.svg",
+      logo: "./public/teamLogos/tuzos.svg",
     },
-    time: "08:30",
-    location: "Casa de tu Mama",
+    time: "N/A",
+    location: "Pinto Lake 'B'",
   },
   {
-    date: "Sat 27 Apr 2024",
+    date: "Jueves 11, de Abril 2023",
     homeTeam: {
       name: "Juventus",
-      logo: "./public/assets/teamLogos/Juventus.svg",
+      logo: "./public/teamLogos/Juventus.svg",
     },
     awayTeam: {
       name: "Guadalajara",
-      logo: "./public/assets/teamLogos/guadalajara.svg",
+      logo: "./public/teamLogos/guadalajara.svg",
     },
     time: "12:00",
     location: "La Michoacana Plus",
   },
 ];
 
-export const ScheduleDates = [
-  "Saturday 20 April 2024",
-  "Sunday 21 April 2024",
-  "Saturday 27 April 2024",
-];
+export default ScheduleData;

@@ -1,5 +1,6 @@
 import React from "react";
 import ScoreBoardInfo from "../../data/scoreboardData/scoreboard";
+import defaultTeamLogo from "./../../../public/teamLogos/defaultLogo.svg";
 
 const ScoreBoard = () => {
   return (
@@ -23,7 +24,19 @@ const ScoreBoard = () => {
                   {/* Game results team */}
                   <div className="flex items-center w-full py-2">
                     <div className="flex items-center justify-center w-8 h-8">
-                      <img src={scoreboard.home.logo} className="h-8 w-8" />
+                      {scoreboard.home.logo ? (
+                        <img
+                          src={scoreboard.home.logo}
+                          alt={`${scoreboard.home.logo} Logo`}
+                          className="h-8 w-8"
+                        />
+                      ) : (
+                        <img
+                          src={defaultTeamLogo.toString()}
+                          alt="Placeholder Logo"
+                          className="h-8 w-8"
+                        />
+                      )}
                     </div>
 
                     <div className="text-left pl-2 grow md:text-right">
@@ -41,7 +54,19 @@ const ScoreBoard = () => {
 
                   <div className="flex items-center w-full py-2 md:flex-row-reverse">
                     <div className="flex items-center justify-center w-8 h-8">
-                      <img src={scoreboard.away.logo} className="h-8 w-8" />
+                      {scoreboard.away.logo ? (
+                        <img
+                          src={scoreboard.away.logo}
+                          alt={`${scoreboard.away.logo} Logo`}
+                          className="h-8 w-8"
+                        />
+                      ) : (
+                        <img
+                          src={defaultTeamLogo.toString()}
+                          alt="Placeholder Logo"
+                          className="h-8 w-8"
+                        />
+                      )}
                     </div>
 
                     <div className="text-left pl-2 grow">
