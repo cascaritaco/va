@@ -41,7 +41,7 @@ const Schedule = () => {
                             <img
                               className={styles.teamLogo}
                               src={defaultTeamLogo.toString()}
-                              alt={`Default Logo`}
+                              alt="Placeholder Logo"
                             />
                           )}
                         </div>

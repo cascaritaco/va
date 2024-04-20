@@ -49,7 +49,7 @@ const ScheduleData = [
       logo: "",
     },
     time: "6:00PM",
-    location: "La Michoacana Plus",
+    location: "Pinto Lake 'A'",
   },
 ];
 
