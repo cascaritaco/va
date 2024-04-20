@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./TableHeader.tsx";
 import Column from "./TableColumns.tsx";
-import Teams from "../../data/teams1.ts";
+import Teams from "../../data/vaTeamData/veteran45Data.ts";
 
 const Table1 = () => {
   return (

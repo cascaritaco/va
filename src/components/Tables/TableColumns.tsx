@@ -4,32 +4,34 @@ import ColumnType from "../../types/table.ts";
 
 const Column: React.FC<ColumnType> = ({
   position,
-  name,
-  played,
-  won,
-  drawn,
-  lost,
+  image,
+  nameLong,
+  jj,
+  jg,
+  je,
+  jp,
   gf,
-  ga,
-  gd,
+  gc,
+  dif,
   points,
 }) => {
   return (
     <tr key={position} className="relative">
       <div className="sticky left-0 z-10 bg-pureWhite">
-        <th className="flex gap-3 ">
+        <th className="flex gap-3 items-center">
           <div>{position}</div>
-          <div>{name}</div>
+          <img src={image} className="h-5" />
+          <div>{nameLong}</div>
         </th>
       </div>
-      <td> {played} </td>
-      <td> {won} </td>
-      <td> {drawn} </td>
-      <td> {lost} </td>
+      <td> {jj} </td>
+      <td> {jg} </td>
+      <td> {je} </td>
+      <td> {jp} </td>
+      <td> {gf} </td>
+      <td> {gc} </td>
+      <td> {dif} </td>
       <td className="font-bold"> {points} </td>
-      <td className="hidden"> {gf} </td>
-      <td className="hidden"> {ga} </td>
-      <td className="hidden"> {gd} </td>
     </tr>
   );
 };

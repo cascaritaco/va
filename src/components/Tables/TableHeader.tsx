@@ -9,9 +9,10 @@ const TableHeader = () => {
         <th>JG</th>
         <th>JE</th>
         <th>JP</th>
+        <th>GF</th>
+        <th>GC</th>
+        <th>DIF</th>
         <th className="font-bold">Points</th>
-        <th className="hidden">GF</th>
-        <th className="hidden">GC</th>
         <th className="hidden">GD</th>
       </tr>
     </thead>
