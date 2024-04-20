@@ -10,7 +10,7 @@ const Banner = ({ toggleState, toggleTab }) => {
     <header className="h-44 bg-url bg-no-repeat bg-cover bg-center" style={styles}>
       <div className="flex flex-col h-full justify-between mx-auto max-w-7xl px-4">
         <div></div>
-        <h1 className="text-primaryB font-bold text-h2 lg:text-h1"> {" "} Veteranos Soccer League{" "} </h1>
+        <h1 className="text-primaryB font-bold text-h3 lg:text-h1"> {" "} Veteranos Soccer League{" "} </h1>
         <div className="max-w-fit">
           <div role="tablist" className="tabs tabs-lifted">
             <a role="tab" className={

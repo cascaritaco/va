@@ -17,7 +17,7 @@ const App = () => {
       <Nav />
       <Banner toggleState={toggleState} toggleTab={toggleTab} />
       <ScoreBoard />
-      <TabbedContent toggleState={toggleState} toggleTab={toggleTab} />
+      <TabbedContent toggleState={toggleState}/>
       <Schedule />
       <News />
     </div>

@@ -6,7 +6,7 @@ import Teams from "../../data/vaTeamData/veteran45Data.ts";
 const Table1 = () => {
   return (
     <section className="overflow-x-auto">
-      <table className="table table-pin-rows mx-auto mt-4 xl:max-w-7xl">
+      <table className="table table-pin-rows">
         <Header />
         <tbody>
           {Teams.map((team) => (
