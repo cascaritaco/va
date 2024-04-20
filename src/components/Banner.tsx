@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImage from "./../assets/background/scattered-forcefields.svg";
+import bannerImage from "./../../public/assets/background/scattered-forcefields.svg";
 
 const styles = {
   backgroundImage: "url(" + bannerImage + ")",

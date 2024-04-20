@@ -1,5 +1,5 @@
 import React from "react";
-import WhiteLogo from "./../assets/logo/white.svg"
+import WhiteLogo from "./../../public/assets/logo/white.svg"
 
 const Nav = () => {
     return (

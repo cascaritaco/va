@@ -3,11 +3,11 @@ export const ScheduleData = [
     date: "Sat 20 Apr 2024",
     homeTeam: {
       name: "Colima",
-      logo: "./src/assets/teamLogos/colima.svg",
+      logo: "./public/assets/teamLogos/colima.svg",
     },
     awayTeam: {
       name: "Guadalajara",
-      logo: "./src/assets/teamLogos/guadalajara.svg",
+      logo: "./public/assets/teamLogos/guadalajara.svg",
     },
     time: "07:00",
     location: "Pinto Lake",
@@ -16,11 +16,11 @@ export const ScheduleData = [
     date: "Sun 21 Apr 2024",
     homeTeam: {
       name: "Juventus",
-      logo: "./src/assets/teamLogos/Juventus.svg",
+      logo: "./public/assets/teamLogos/Juventus.svg",
     },
     awayTeam: {
       name: "Tuzos",
-      logo: "./src/assets/teamLogos/tuzos.svg",
+      logo: "./public/assets/teamLogos/tuzos.svg",
     },
     time: "08:30",
     location: "Casa de tu Mama",
@@ -29,11 +29,11 @@ export const ScheduleData = [
     date: "Sat 27 Apr 2024",
     homeTeam: {
       name: "Juventus",
-      logo: "./src/assets/teamLogos/Juventus.svg",
+      logo: "./public/assets/teamLogos/Juventus.svg",
     },
     awayTeam: {
       name: "Guadalajara",
-      logo: "./src/assets/teamLogos/guadalajara.svg",
+      logo: "./public/assets/teamLogos/guadalajara.svg",
     },
     time: "12:00",
     location: "La Michoacana Plus",
