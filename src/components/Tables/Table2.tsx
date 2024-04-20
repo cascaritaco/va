@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "./TableHeader.tsx";
 import Column from "./TableColumns.tsx";
-import Teams from "../data/teams1.ts";
+import Teams from "../../data/teams2.ts";
 
-const Table1 = () => {
+const Table2 = () => {
   return (
-    <section className="overflow-x-auto">
+    <div className="overflow-x-auto h-screen">
       <table className="table table-pin-rows mx-auto mt-4 xl:max-w-7xl">
         <Header />
         <tbody>
@@ -14,8 +14,8 @@ const Table1 = () => {
           ))}
         </tbody>
       </table>
-    </section>
+    </div>
   );
 };
 
-export default Table1;
+export default Table2;
