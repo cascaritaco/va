@@ -7,6 +7,7 @@ const ScoreBoardInfo = [
     },
     away: {
       logo: "",
+
       score: 1,
       name: "Atletico Vet",
     },
@@ -33,6 +34,7 @@ const ScoreBoardInfo = [
       logo: "./teamLogos/colima.svg",
       score: 3,
       name: "Colima",
+
     },
   },
   {
@@ -45,6 +47,7 @@ const ScoreBoardInfo = [
       logo: "./teamLogos/juventus.svg",
       score: 2,
       name: "Juventus",
+
     },
   },
 ];

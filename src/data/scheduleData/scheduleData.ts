@@ -8,6 +8,7 @@ const ScheduleData = [
     awayTeam: {
       name: "Sinaloa",
       logo: "",
+
     },
     time: "6:00PM",
     location: "Pinto Lake 'A'",
@@ -15,6 +16,7 @@ const ScheduleData = [
   {
     date: "Miercoles 24, de Abril 2024",
     homeTeam: {
+
       name: "Atletico Vet",
       logo: "",
     },
@@ -47,6 +49,7 @@ const ScheduleData = [
     awayTeam: {
       name: "Juventus",
       logo: "./teamLogos/juventus.svg",
+
     },
     time: "6:00PM",
     location: "Pinto Lake 'A'",
