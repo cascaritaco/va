@@ -5,14 +5,14 @@ import ColumnType from "../../types/table.ts";
 const Column: React.FC<ColumnType> = ({
   position,
   name,
-  played,
-  won,
-  drawn,
-  lost,
+  jj,
+  jg,
+  je,
+  jp,
   gf,
-  ga,
-  gd,
-  points,
+  gc,
+  dif,
+  points
 }) => {
   return (
     <tr key={position} className="relative">
@@ -22,14 +22,14 @@ const Column: React.FC<ColumnType> = ({
           <div>{name}</div>
         </th>
       </div>
-      <td> {played} </td>
-      <td> {won} </td>
-      <td> {drawn} </td>
-      <td> {lost} </td>
+      <td> {jj} </td>
+      <td> {jg} </td>
+      <td> {je} </td>
+      <td> {jp} </td>
+      <td> {gf} </td>
+      <td> {gc} </td>
+      <td> {dif} </td>
       <td className="font-bold"> {points} </td>
-      <td className="hidden"> {gf} </td>
-      <td className="hidden"> {ga} </td>
-      <td className="hidden"> {gd} </td>
     </tr>
   );
 };
