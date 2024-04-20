@@ -1,19 +1,15 @@
 import React from "react";
 import bannerImage from "./../assets/background/scattered-forcefields.svg";
 
-const styles = {
-  backgroundImage: `url(${bannerImage})`,
-};
-
 const Banner = ({ toggleState, toggleTab }) => {
   return (
-    <header className="h-44 bg-no-repeat bg-cover bg-center" style={styles}>
+    <header className="h-44 bg-gray-200">
       <div className="flex flex-col h-full justify-between mx-auto max-w-7xl px-4">
         <div></div>
 
         <h1 className="text-primaryB font-bold text-h2 lg:text-h1">
           {" "}
-          Veteranos Soccer League{" "}
+          Liga Veteranos{" "}
         </h1>
 
         <div className="max-w-fit">
