@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Nav from "./components/Nav";
 import Banner from "./components/Banner";
-import TabbedContent from "./components/TabbedContent";
+import TabbedContent from "./components/Tables/TabbedContent";
 import ScoreBoard from "./components/ScoreBoard/ScoreBoard";
 import Schedule from "./components/Schedule/Schedule";
+import News from "./components/News/News";
 
 const App = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -18,6 +19,7 @@ const App = () => {
       <ScoreBoard />
       <TabbedContent toggleState={toggleState} toggleTab={toggleTab} />
       <Schedule />
+      <News />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import ColumnType from "./../types/table.ts";
+import ColumnType from "../../types/table.ts";
 // import styles from "./TableColumns.module.css";
 
 const Column: React.FC<ColumnType> = ({
