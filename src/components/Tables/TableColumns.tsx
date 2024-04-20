@@ -4,7 +4,8 @@ import ColumnType from "../../types/table.ts";
 
 const Column: React.FC<ColumnType> = ({
   position,
-  name,
+  image,
+  nameLong,
   jj,
   jg,
   je,
@@ -19,7 +20,8 @@ const Column: React.FC<ColumnType> = ({
       <div className="sticky left-0 z-10 bg-pureWhite">
         <th className="flex gap-3 ">
           <div>{position}</div>
-          <div>{name}</div>
+          <img src={image} className="h-5"/>
+          <div>{nameLong}</div>
         </th>
       </div>
       <td> {jj} </td>

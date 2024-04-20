@@ -1,7 +1,8 @@
 type ColumnType = {
     position: number;
     image: string;
-    name: string;
+    nameLong: string;
+    nameShort: string;
     jj: number | string;
     jg: number | string;
     je: number | string;
