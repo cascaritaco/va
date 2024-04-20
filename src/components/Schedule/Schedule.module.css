@@ -1,0 +1,96 @@
+/* * { */
+/*   outline: red 1px solid; */
+/* } */
+.scheduleContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  padding: 0 16px;
+}
+
+.sectionTitle {
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+  border-bottom: 1px solid lightgray;
+}
+
+.fixturesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.fixtureDate {
+  font-size: 1.2rem;
+}
+
+.fixtureDate > p {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.matchList {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.matchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.matchFixture {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  margin-bottom: 6px;
+  width: 100%;
+  border-bottom: 0.1rem solid #8383833d;
+}
+
+.teamContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+  margin-left: 0;
+}
+
+.teamContainer > p {
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+
+.awayTeamContainer {
+  flex-direction: row-reverse;
+}
+
+.teamLogo {
+  max-width: 2rem;
+  height: 2rem;
+}
+
+.timeContainer {
+  background: transparent;
+  border: 0.1rem solid #8383833d;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.time {
+  max-width: 4.3rem;
+  height: 2.5rem;
+  font-size: 1.1rem;
+}
+
+.locationContainer {
+  max-width: 100%;
+}
+
+.locationContainer > p {
+  font-size: 0.9rem;
+}
