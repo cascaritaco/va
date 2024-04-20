@@ -13,14 +13,14 @@ const Column: React.FC<ColumnType> = ({
   gf,
   gc,
   dif,
-  points
+  points,
 }) => {
   return (
     <tr key={position} className="relative">
       <div className="sticky left-0 z-10 bg-pureWhite">
-        <th className="flex gap-3 ">
+        <th className="flex gap-3 items-center">
           <div>{position}</div>
-          <img src={image} className="h-5"/>
+          <img src={image} className="h-5" />
           <div>{nameLong}</div>
         </th>
       </div>

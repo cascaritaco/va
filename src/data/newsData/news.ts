@@ -1,12 +1,10 @@
 const News = [
-    {
-        "title": "El Protesto de los Tuzos",
-        "description": "Carranza del equipo Juventus, necesita traer su ID original para comprobar su edad."
-    },
-    {
-        "title": "El Protesto de los Juventus",
-        "description": "El equipo Juventus protesto al jugador del equipo Tuzos (Miguel Garcia) por ser menor de edad. Tiene la edad de 44 anos, comprobado en presencia del (Arbitro Marcos) protesta hecha en el medio tiempo, con la presencia de los dos representates de ambo equipos."
-    },
-]
+  {
+    title: "Gran Encuentro Juego Amistoso",
+    description:
+      "El 4 de Mayo a las 3PM, en los compos de Pinto Lake, jugaran Las Glorias de Watsonville. No faltes y ven a pasar un momento agusto en compania de todo los jusgadores.",
+  },
+];
 
 export default News;
+
