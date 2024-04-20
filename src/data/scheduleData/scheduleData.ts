@@ -26,7 +26,7 @@ const ScheduleData = [
     location: "Pinto Lake 'B'",
   },
   {
-    date: "Jueves 11, de Abril 2023",
+    date: "Jueves 11, de Abril 2024",
     homeTeam: {
       name: "Colima",
       logo: "./teamLogos/colima.svg",
@@ -39,7 +39,7 @@ const ScheduleData = [
     location: "Pinto Lake 'B'",
   },
   {
-    date: "Viernes 12, de Abril 2023",
+    date: "Viernes 12, de Abril 2024",
     homeTeam: {
       name: "Coro",
       logo: "",
