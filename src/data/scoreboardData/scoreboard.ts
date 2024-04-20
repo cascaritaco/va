@@ -1,12 +1,12 @@
 const ScoreBoardInfo = [
   {
     home: {
-      logo: "./teamLogos/juventus.svg",
+      logo: "./public/teamLogos/juventus.svg",
       score: 6,
       name: "Juventus",
     },
     away: {
-      logo: "./teamLogos/tuzos.svg",
+      logo: "./public/teamLogos/tuzos.svg",
       score: 1,
       name: "Tuzos",
     },
@@ -25,24 +25,24 @@ const ScoreBoardInfo = [
   },
   {
     home: {
-      logo: "./teamLogos/colima.svg",
+      logo: "./public/teamLogos/colima.svg",
       score: 1,
       name: "Colima",
     },
     away: {
-      logo: "./teamLogos/guadalajara.svg",
+      logo: "./public/teamLogos/guadalajara.svg",
       score: 1,
       name: "Guadalajara",
     },
   },
   {
     home: {
-      logo: "",
+      logo: "./public/teamLogos/defaultLogo.svg",
       score: 1,
       name: "Coro",
     },
     away: {
-      logo: "",
+      logo: "./public/teamLogos/defaultLogo.svg",
       score: 3,
       name: "Atletico Vet",
     },

@@ -2,12 +2,12 @@ const ScheduleData = [
   {
     date: "Miercoles 10, de Abril 2024",
     homeTeam: {
-      name: "Juventus",
-      logo: "./teamLogos/juventus.svg",
+      name: "Colima",
+      logo: "./public/teamLogos/colima.svg",
     },
     awayTeam: {
-      name: "Sinaloa",
-      logo: "",
+      name: "Guadalajara",
+      logo: "./public/teamLogos/guadalajara.svg",
     },
     time: "N/A",
     location: "Pinto Lake 'A'",
@@ -15,12 +15,12 @@ const ScheduleData = [
   {
     date: "Miercoles 10, de Abril 2024",
     homeTeam: {
-      name: "Forty's",
-      logo: "",
+      name: "Juventus",
+      logo: "./public/teamLogos/Juventus.svg",
     },
     awayTeam: {
-      name: "Sinaloa",
-      logo: "",
+      name: "Tuzos",
+      logo: "./public/teamLogos/tuzos.svg",
     },
     time: "N/A",
     location: "Pinto Lake 'B'",
@@ -28,28 +28,15 @@ const ScheduleData = [
   {
     date: "Jueves 11, de Abril 2023",
     homeTeam: {
-      name: "Colima",
-      logo: "./teamLogos/colima.svg",
+      name: "Juventus",
+      logo: "./public/teamLogos/Juventus.svg",
     },
     awayTeam: {
       name: "Guadalajara",
-      logo: "./teamLogos/guadalajara.svg",
+      logo: "./public/teamLogos/guadalajara.svg",
     },
-    time: "N/A",
-    location: "Pinto Lake 'B'",
-  },
-  {
-    date: "Viernes 12, de Abril 2023",
-    homeTeam: {
-      name: "Coro",
-      logo: "",
-    },
-    awayTeam: {
-      name: "Atletico Vet",
-      logo: "",
-    },
-    time: "6:00PM",
-    location: "Pinto Lake 'A'",
+    time: "12:00",
+    location: "La Michoacana Plus",
   },
 ];
 
