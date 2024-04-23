@@ -1,6 +1,6 @@
 import React from "react";
-import ScoreBoardInfo from "../../data/scoreboardData/scoreboard";
-import defaultTeamLogo from "./../../../public/teamLogos/defaultLogo.svg";
+import ScoreBoardInfo from "../../data/scoreboardData/jornada1/scoreboard35.ts";
+import defaultTeamLogo from "/teamLogos/defaultLogo.svg";
 
 const ScoreBoard = () => {
   return (

@@ -2,12 +2,12 @@ const ScheduleData = [
   {
     date: "Miercoles 24, de Abril 2024",
     homeTeam: {
-      name: "Coro",
       logo: "",
+      name: "Coro",
     },
     awayTeam: {
-      name: "Sinaloa",
       logo: "",
+      name: "Sinaloa",
 
     },
     time: "6:00PM",
@@ -16,13 +16,12 @@ const ScheduleData = [
   {
     date: "Miercoles 24, de Abril 2024",
     homeTeam: {
-
-      name: "Atletico Vet",
       logo: "",
+      name: "Atletico Vet",
     },
     awayTeam: {
-      name: "Guadalajara",
       logo: "./teamLogos/guadalajara.svg",
+      name: "Guadalajara",
     },
     time: "6:00PM",
     location: "Pinto Lake 'B'",
@@ -30,12 +29,12 @@ const ScheduleData = [
   {
     date: "Jueves 25, de Abril 2024",
     homeTeam: {
-      name: "El Cartel",
       logo: "",
+      name: "El Cartel",
     },
     awayTeam: {
-      name: "Tuzos",
       logo: "./teamLogos/tuzos.svg",
+      name: "Tuzos",
     },
     time: "6:00PM",
     location: "Pinto Lake 'B'",
@@ -43,12 +42,12 @@ const ScheduleData = [
   {
     date: "Viernes 26, de Abril 2024",
     homeTeam: {
-      name: "Forty's",
       logo: "",
+      name: "Forty's",
     },
     awayTeam: {
-      name: "Juventus",
       logo: "./teamLogos/juventus.svg",
+      name: "Juventus",
 
     },
     time: "6:00PM",

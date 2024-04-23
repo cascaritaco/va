@@ -1,6 +1,6 @@
 import React from "react";
 import ColumnType from "../../types/table.ts";
-// import styles from "./TableColumns.module.css";
+import defaultTeamLogo from "/teamLogos/defaultLogo.svg";
 
 const Column: React.FC<ColumnType> = ({
   position,
@@ -20,7 +20,11 @@ const Column: React.FC<ColumnType> = ({
       <div className="sticky left-0 z-10 bg-pureWhite">
         <th className="flex gap-3 items-center">
           <div>{position}</div>
-          <img src={image} className="h-5" />
+          {image ? (
+            <img src={image} className="h-5" />
+          ) : (
+            <img src={defaultTeamLogo} className="h-5" />
+          )}
           <div>{nameLong}</div>
         </th>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Schedule.module.css";
-import ScheduleData from "../../data/scheduleData/scheduleData";
-import defaultTeamLogo from "./../../../public/teamLogos/defaultLogo.svg";
+import ScheduleData from "../../data/scheduleData/scheduleData35";
+import defaultTeamLogo from "/teamLogos/defaultLogo.svg";
 
 const Schedule = () => {
   //Group Games by Date

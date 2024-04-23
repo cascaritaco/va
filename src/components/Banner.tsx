@@ -7,10 +7,7 @@ const Banner = ({ toggleState, toggleTab }) => {
       <div className="flex flex-col h-full justify-between mx-auto max-w-7xl px-4">
         <div></div>
 
-        <h1 className="text-primaryB font-bold text-h2 lg:text-h1">
-          {" "}
-          Liga Veteranos{" "}
-        </h1>
+        <h1 className="text-primaryB font-bold text-h2 lg:text-h1"> Liga Veteranos </h1>
 
         <div className="max-w-fit">
           <div role="tablist" className="tabs tabs-lifted">
@@ -26,9 +23,9 @@ const Banner = ({ toggleState, toggleTab }) => {
               {" "}
               Veteranos 45+{" "}
             </a>
-            {/* <a role="tab" className={toggleState === 2 ? "tab [--tab-border-color:transparent] tab-active" : "tab [--tab-border-color:transparent] [--tab-bg:gray]"} onClick={() => toggleTab(2)}>
-              {" "} Veteranos 35+{" "}
-            </a> */}
+            <a role="tab" className={toggleState === 2 ? "tab [--tab-border-color:transparent] tab-active" : "tab [--tab-border-color:transparent] [--tab-bg:gray]"} onClick={() => toggleTab(2)}>
+              Veteranos 35+
+            </a>
             {/* <a role="tab" className={toggleState === 3 ? "tab [--tab-border-color:transparent] tab-active" : "tab [--tab-border-color:transparent] [--tab-bg:gray]"} onClick={() => toggleTab(3)}> Division 3 </a> */}
           </div>
         </div>
