@@ -10,7 +10,7 @@ export default function Table({
   data: TeamData[];
 }) {
   return (
-    <>
+    <section>
       <h2 className={styles.tableHeading}>Tablas</h2>
       <div className={styles.tableContainer}>
         <table className={styles.Table}>
@@ -59,6 +59,6 @@ export default function Table({
           </tbody>
         </table>
       </div>
-    </>
+    </section>
   );
 }
