@@ -4,7 +4,7 @@ import defaultTeamLogo from "/teamLogos/defaultLogo.svg";
 
 const ScoreBoard = () => {
   return (
-    <section className="flex flex-col mt-10 px-4">
+    <section className="flex flex-col mt-10 mb-5 px-4">
       <div>
         <h2 className="text-xl mb-4">Resultados</h2>
       </div>

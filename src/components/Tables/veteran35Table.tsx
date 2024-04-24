@@ -3,7 +3,6 @@ import Header from "./TableHeader.tsx";
 import Column from "./TableColumns.tsx";
 import Teams from "../../data/vaTeamData/veteran35Data.ts";
 
-
 const Table2 = () => {
   return (
     <section className="overflow-x-auto mt-10 px-4">

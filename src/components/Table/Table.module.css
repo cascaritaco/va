@@ -1,0 +1,65 @@
+.tableHeading {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+.tableContainer {
+  overflow: scroll;
+  width: 100%;
+  margin: 24px 0;
+}
+
+.tableContainer > table {
+  border-collapse: collapse;
+  width: 120%;
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  vertical-align: middle;
+}
+
+.tableHeader tr > th {
+  background-color: #ffffff;
+  position: sticky;
+  padding: 0.5rem;
+  z-index: 2;
+  top: 0;
+  text-align: center;
+  border-bottom: lightgray solid 1px;
+  font-size: 0.7rem;
+  width: fit-content;
+}
+
+.tableHeader tr > :first-child {
+  z-index: 3;
+  left: 0;
+  top: 0;
+  text-align: left;
+}
+
+.teamHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tableBody td {
+  text-align: center;
+  padding: 0.5rem;
+  border-bottom: lightgray 1px solid;
+}
+
+.teamName {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+}
+
+.tableBody tr > :first-child {
+  background-color: #ffffff;
+  position: sticky;
+  z-index: 1;
+  left: 0;
+}

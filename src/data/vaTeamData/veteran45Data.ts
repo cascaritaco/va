@@ -1,4 +1,19 @@
-const Teams = [
+interface TeamData {
+  position: number;
+  image: string;
+  nameLong: string;
+  nameShort: string;
+  jj: number | null;
+  jg: number | null;
+  je: number | null;
+  jp: number | null;
+  gf: number | null;
+  gc: number | null;
+  dif: number | null;
+  points: number | null;
+}
+
+const Teams: TeamData[] = [
   {
     position: 1,
     image: "./teamLogos/juventus.svg",
@@ -11,7 +26,7 @@ const Teams = [
     gf: 8,
     gc: 3,
     dif: 5,
-    points:4,
+    points: 4,
   },
   {
     position: 2,
@@ -128,5 +143,3 @@ const Teams = [
 ];
 
 export default Teams;
-
-
