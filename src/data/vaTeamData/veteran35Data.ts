@@ -1,4 +1,18 @@
-const Teams = [
+interface TeamData {
+  position: number;
+  image: string;
+  nameLong: string;
+  nameShort: string;
+  jj: number | null;
+  jg: number | null;
+  je: number | null;
+  jp: number | null;
+  gf: number | null;
+  gc: number | null;
+  dif: number | null;
+  points: number | null;
+}
+const Teams: TeamData[] = [
   {
     position: 1,
     image: "./teamLogos/guadalajara.svg",
@@ -32,14 +46,14 @@ const Teams = [
     image: "",
     nameLong: "Los Banos F. C.",
     nameShort: "",
-    jj: "1",
-    jg: "1",
-    je: "0",
-    jp: "0",
-    gf: "4",
-    gc: "3",
-    dif: "1",
-    points: "3",
+    jj: 1,
+    jg: 1,
+    je: 0,
+    jp: 0,
+    gf: 4,
+    gc: 3,
+    dif: 1,
+    points: 3,
   },
   {
     position: 4,
@@ -88,17 +102,15 @@ const Teams = [
     image: "./teamLogos/inter.svg",
     nameLong: "Inter",
     nameShort: "",
-    jj: "",
-    jg: "",
-    je: "",
-    jp: "",
-    gf: "",
-    gc: "",
-    dif: "",
-    points: "",
+    jj: null,
+    jg: null,
+    je: null,
+    jp: null,
+    gf: null,
+    gc: null,
+    dif: null,
+    points: null,
   },
 ];
 
 export default Teams;
-
-

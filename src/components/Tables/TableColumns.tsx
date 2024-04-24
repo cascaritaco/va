@@ -18,14 +18,16 @@ const Column: React.FC<ColumnType> = ({
   return (
     <tr key={position} className="relative">
       <div className="sticky left-0 z-10 bg-pureWhite">
-        <th className="flex gap-3 items-center">
-          <div>{position}</div>
-          {image ? (
-            <img src={image} className="h-5" />
-          ) : (
-            <img src={defaultTeamLogo} className="h-5" />
-          )}
-          <div>{nameLong}</div>
+        <th>
+          <div className="flex items-center gap-3">
+            <div>{position}</div>
+            {image ? (
+              <img src={image} className="h-5" />
+            ) : (
+              <img src={defaultTeamLogo} className="h-5" />
+            )}
+            <div>{nameLong}</div>
+          </div>
         </th>
       </div>
       <td> {jj} </td>
